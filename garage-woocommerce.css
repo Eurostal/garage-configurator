@@ -1,0 +1,575 @@
+	/* CZ version */
+
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+	/* Font */
+	body.woocommerce #primary{
+		width: 100%;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 600;
+	}
+
+	/* Red underline in titles */
+	h3.tc-cell.tc-epo-label.tm-epo-element-label.tcwidth-100::after {
+		content: '';
+		position: absolute;
+		bottom: -5px;
+		left: 18px;
+		width: 1.25rem;
+		height: 2px;
+		background-image: linear-gradient(to right,#CC0D27 0,#CC0D27 3px,transparent 4px,transparent 6px,#CC0D27 7px);
+	}
+
+	/* bg-gray */
+	div#content {
+		background: #F8F8F8;
+	}
+
+	/* Bar category links */
+	@media (min-width: 768px){
+		.storefront-breadcrumb {
+			padding: 10px 20px;
+			margin: 0 0 10px;
+		}
+	}
+
+	/* Configurator positioning */
+	@media (min-width: 768px){
+		.single-product div.product .summary {
+			width: 55%;
+			margin-left: 25px;
+			float: none;
+		}
+	}
+
+	/* Configurator container width */
+	@media (min-width: 1280px){
+		.col-full {
+			max-width: 1280px;
+		}
+	}
+
+	/* Hidden main img */
+	.woocommerce-product-gallery__image--placeholder{
+		display: none;
+	}
+
+	/* almost 3D visualition */
+	/* Dwuspadowy */
+/*
+	#tab-description > p > img.alignnone.size-medium.wp-image-17 {
+		position: fixed;
+		right: 100px;
+		bottom: 30px;
+		width: 32%;
+		background: #FFF;
+		box-shadow: 0 0 2px #000;
+	}
+	*/
+	/* Hidden img preview */
+	#tab-description > p > img.alignnone.size-medium.wp-image-18,
+	#tab-description > p > img.alignnone.size-medium.wp-image-21,
+	#tab-description > p > img.alignnone.size-medium.wp-image-20,
+	#tab-description > p > img.alignnone.size-medium.wp-image-19{
+		display: none;
+		position: fixed;
+		right: 100px;
+		bottom: 30px;
+		width: 32%;
+		background: #FFF;
+		box-shadow: 0 0 2px #aeaeae;
+	}
+
+	@media (max-width: 1100px){
+		#tab-description > p > img {
+			right: 50px!important;
+			bottom: 80px!important;
+		}
+	}
+
+	/* preview show */
+	.show{
+		display: inline!important;
+	}
+
+	/* Star "*" before title of roof type */
+	span.tm-epo-required {
+		display: none;
+	}
+
+	/* Star "*" before Rodzaj konstrukcji */
+	h3.tc-cell.tc-epo-label.tm-epo-element-label.tm-has-required.tcwidth-100 {
+		display: none;
+	}
+
+	/* Roof type img */
+	img.square.radio-image {
+		padding: 15px;
+	}
+
+	/* Roof type img bg */
+	ul > li > label > span > img.square{
+		background: #f8f8f8;
+		transition: 0.2s ease-in;
+	}
+
+	/* Roof type img border on active*/
+	.tm-extra-product-options .tmcp-field-wrap.tc-active .tc-label-wrap img.radio-image.square {
+		border: 3px solid #cc0d27;
+		border-width: 3px;
+		background: #FFF;
+		transition: 0.2s ease-in;
+	}
+
+	/* Roof type img signature color */
+	li.tmcp-field-wrap.tmhexcolorimage-li-nowh.tm-per-row.tc-mode-images span.tc-label.radio-image-label{
+		font-size: 1rem;
+		color: #B1B1B1;
+	}
+
+	/* Roof type img:hover signature color */
+	li.tmcp-field-wrap.tmhexcolorimage-li-nowh.tm-per-row.tc-mode-images:hover span.tc-label.radio-image-label{
+		color: #cc0d27;
+		transition: 0.2s ease-in;
+	}
+
+	/* Roof, window, gate img signature red when active */
+	.tm-extra-product-options .highlight-div *{
+		color: #cc0d27;
+	}
+
+	/* Garage dynamic dimensions value red */
+	#tc-epo-form-15-0 > div:nth-child(2) > div > div > div > div > div:nth-child(8) > div > div > h5,
+	#tc-epo-form-15-0 > div:nth-child(2) > div > div > div > div > div:nth-child(10) > div > div > h5,
+	#tc-epo-form-15-0 > div:nth-child(2) > div > div > div > div > div:nth-child(12) > div > div > h5,
+	#tc-epo-form-15-0 > div:nth-child(2) > div > div > div > div > div:nth-child(14) > div > div > h5,
+	#tc-epo-form-15-0 > div:nth-child(2) > div > div > div > div > div:nth-child(16) > div > div > h5{
+		color: #cc0d27;
+	}
+
+	/* Horizontal separator */
+	#tc-epo-form-15-0 > div:nth-child(2) > div > div > div > div > div.tc-container.cpf-element.tc-cell.tcwidth-100.cpf-type-divider{
+		margin-bottom: 0;
+		margin-top: 15px;
+	}
+
+	/* Button popup color-choice-section */
+	.button.alt.tm-section-link {
+		background: #cc0d27;
+		color: #FFF;
+		box-shadow: 0 0.25rem 1.25rem rgb(0 0 0 / 25%);
+		margin-bottom: 1.5rem;
+		transition: 0.2s ease-in;
+	}
+
+	/* Button popup color-chooice-section */
+	.button.alt.tm-section-link:hover {
+		background: #000;
+		color: #FFF
+	}
+
+	/* Width for btn in buider is 33%  - > popup needs 100% */
+	.cpf-section.tc-cell.tcwidth-33.btn-roof-color.section_popup,
+	.cpf-section.tc-cell.tcwidth-33.btn-acord-color.section_popup,
+	.cpf-section.tc-cell.tcwidth-33.btn-garage-color.section_popup,
+	.cpf-section.tc-cell.tcwidth-33.btn-walls-color.section_popup,
+	.cpf-section.tc-cell.tcwidth-33.btn-gate-color.section_popup{
+		max-width: 100%;
+	}
+
+	/* Select box font */
+	select {
+		color: #cc0d27;
+		font-size: 1.25rem;
+		font-weight: bold;
+		border: none;
+		appearance: none;
+	}
+
+	/* SelectBox titles H4 16px */
+	h4.tc-cell.tc-epo-label.tm-epo-element-label.tm-has-required.tcwidth-100 {
+		font-size: 1rem;
+	}
+
+	/* checkbox titles */
+	.tm-extra-product-options ul.tmcp-ul-wrap.tm-extra-product-options-checkbox li.tmcp-field-wrap label, .tm-extra-product-options ul.tmcp-ul-wrap.tm-extra-product-options-radio li.tmcp-field-wrap label {
+		font-weight: 700;
+		font-size: 14px;
+		color: #CC0D27;
+	}
+
+	/* checkbox selected box */
+	.tc-active span.tc-epo-style-wrapper.square2 {
+		color: #FFF;
+		background: #CC0D27;
+		border: none;
+		font-size: 15px;
+		width: 20px;
+		height: 20px;
+	}
+
+	/* checkbox unselected box */
+	span.tc-epo-style-wrapper.square2 {
+		color: #FFF;
+		background: #FFF;
+		width: 20px;
+		height: 20px;
+		border: 2px solid #f1f1f1;
+	}
+
+	/* "+" sign in Dodaj okno & Dodaj drzwi, removing standard styling */
+	#tc-epo-form-15-0 > div:nth-child(18) > div > div > div > div > div.tc-container.cpf-element.tc-cell.tcwidth-100.cpf-type-checkbox.tc-container-enabled > div > div > div > ul > li > label > span.tc-epo-style-wrapper.square2,
+	#tc-epo-form-15-0 > div:nth-child(20) > div > div > div > div > div.tc-container.cpf-element.tc-cell.tcwidth-100.cpf-type-checkbox.iscpfdependson.is-epo-depend.tc-container-enabled > div > div > div > ul > li > label > span.tc-epo-style-wrapper.square2,
+		#tc-epo-form-15-0 > div:nth-child(22) > div > div > div > div > div.tc-container.cpf-element.tc-cell.tcwidth-100.cpf-type-checkbox.iscpfdependson.is-epo-depend.tc-container-enabled > div > div > div > ul > li > label > span.tc-epo-style-wrapper.square2{
+		color: #FFF;
+		background: #FFF;
+		border: none;
+	}
+	/* "+" sign (|) in Dodaj okno & Dodaj drzwi checkbox */
+	#tc-epo-form-15-0 > div:nth-child(18) > div > div > div > div > div.tc-container.cpf-element.tc-cell.tcwidth-100.cpf-type-checkbox.tc-container-enabled > div > div > div > ul > li > label > span.tc-epo-style-wrapper.square2:before,
+	#tc-epo-form-15-0 > div:nth-child(20) > div > div > div > div > div.tc-container.cpf-element.tc-cell.tcwidth-100.cpf-type-checkbox.iscpfdependson.is-epo-depend.tc-container-enabled > div > div > div > ul > li > label > span.tc-epo-style-wrapper.square2:before,
+		#tc-epo-form-15-0 > div:nth-child(22) > div > div > div > div > div.tc-container.cpf-element.tc-cell.tcwidth-100.cpf-type-checkbox.iscpfdependson.is-epo-depend.tc-container-enabled > div > div > div > ul > li > label > span.tc-epo-style-wrapper.square2:before{
+		content: '';
+		position: absolute;
+		background: #cc0d27;
+		left: 8px;
+		top: 1px;
+		height: 17px;
+		width: 3px;
+		z-index: 1;
+	}
+	/* "+" sign (-) in Dodaj okno & Dodaj drzwi checkbox */
+	#tc-epo-form-15-0 > div:nth-child(18) > div > div > div > div > div.tc-container.cpf-element.tc-cell.tcwidth-100.cpf-type-checkbox.tc-container-enabled > div > div > div > ul > li > label > span.tc-epo-style-wrapper.square2:after,
+	#tc-epo-form-15-0 > div:nth-child(20) > div > div > div > div > div.tc-container.cpf-element.tc-cell.tcwidth-100.cpf-type-checkbox.iscpfdependson.is-epo-depend.tc-container-enabled > div > div > div > ul > li > label > span.tc-epo-style-wrapper.square2:after,
+		#tc-epo-form-15-0 > div:nth-child(22) > div > div > div > div > div.tc-container.cpf-element.tc-cell.tcwidth-100.cpf-type-checkbox.iscpfdependson.is-epo-depend.tc-container-enabled > div > div > div > ul > li > label > span.tc-epo-style-wrapper.square2:after{
+		content: '';
+		position: absolute;
+		background: #cc0d27;
+		left: 1px;
+		top: 8px;
+		width: 17px;
+		height: 3px;
+	}
+	span.tc-label.tm-label {
+    	cursor: pointer;
+}
+/*	span.tc-label.tm-epo-style.square2 {
+    	z-index: 1;
+		background: #fff;
+	}*/
+
+	/* Section dodatki padding */
+	h3.tc-cell.tc-epo-label.tm-epo-element-label.tcwidth-100 {
+		padding-top: 1rem;
+	}
+
+	/* Grey vertical separator */
+	#tc-epo-form-15-0 > div:nth-child(18) > div > div > div > div > div:nth-child(3):before {
+		content: '';
+		position: absolute;
+		left: 1px;
+		width: 2px;
+		height: 53px;
+		background: #E0E0E0;
+		z-index: 1;
+	}
+
+	/* Range picker handle in Dodatki */
+	.noui-handle.noui-handle-lower{
+		border: 2px solid #cc0d27;
+		border-radius: 5px;
+		background: #FFF;
+		width: 16px;
+		height: 16px;
+	}
+
+	/* Range picker handle circle hover */
+	.noui-handle::before {
+		background-color: #cc0d2733;
+	}
+
+	/* Range picker grey line after before */
+	.noui-connect {
+		background: #e0e0e0;
+	}
+
+	/* Range picker grey line after handle */
+	.noui-connects {
+		background: #E0E0E0
+	}
+
+	/* Range picker value */
+	label.tm-epo-field-label.tm-show-picker-value {
+		font-size: 1rem!important;
+		color: #181828;
+		padding: 6px 20px;
+		border: 1px solid #e0e0e0;
+	}
+
+	/* Range picker value 'cm' */
+	label.tm-epo-field-label.tm-show-picker-value:after {
+		content:' cm'
+	}
+
+	/* Horizontal separator */
+	hr.hr_divider.tc-cell.tc-width100 {
+		background: #f1f1f1;
+		height: 2px;
+	}
+
+	/* Grey vertical separators */
+	/* Separator of okno dodaki as before */
+	#tc-epo-form-15-0 > div:nth-child(18) > div > div > div > div > div:nth-child(3):before {
+		content: '';
+		position: absolute;
+		left: 1px;
+		width: 2px;
+		height: 53px;
+		background: #E0E0E0;
+		z-index: 1;
+	}
+
+	/* Separator of others as borders */
+	#tc-epo-form-15-0 > div:nth-child(2) > div > div > div > div > div:nth-child(3),
+	#tc-epo-form-15-0 > div:nth-child(6) > div > div > div > div > div:nth-child(4){
+		border-left: 2px solid #e0e0e0;
+		border-right: 2px solid #e0e0e0;
+	}
+	#tc-epo-form-15-0 > div:nth-child(9) > div > div > div > div > div:nth-child(3),
+	#tc-epo-form-15-0 > div:nth-child(18) > div > div > div > div > div:nth-child(9),
+	#tc-epo-form-15-0 > div:nth-child(18) > div > div > div > div > div:nth-child(15),
+	#tc-epo-form-15-0 > div:nth-child(18) > div > div > div > div > div:nth-child(21),
+	#tc-epo-form-15-0 > div:nth-child(18) > div > div > div > div > div:nth-child(27){
+		border-left: 2px solid #e0e0e0;
+	}
+
+	/* Arrow in selectBox */
+	label.tm-epo-field-label.fullwidth:after {
+		content: '';
+		position: absolute;
+		display: inline-block;
+		width: 7px;
+		height: 7px;
+		border-top: 2px solid #181828;
+		border-right: 2px solid #181828;
+		transform: rotate(135deg);
+		top: 8px;
+		right: 42px;
+	}
+
+	/* Borders around each section */
+	/* Dach */
+	#tc-epo-form-15-0 > div:nth-child(1) > div > div > div > div {
+		border: 1px solid #767676a1;
+		border-bottom: none;
+		background: #FFF;
+		padding: 15px;
+	}
+
+	/* Wymiary dach */
+	#tc-epo-form-15-0 > div:nth-child(2) > div > div > div {
+		border: 1px solid #767676a1;
+		border-top: none;
+		background: #FFF;
+		padding: 15px;
+	}
+
+	/* Rodzaj konstrukcji */
+	#tc-epo-form-15-0 > div:nth-child(4) > div > div,
+	/* Typ bramy */
+	#tc-epo-form-15-0 > div:nth-child(6) > div > div {
+		background: #FFF;
+		border: 1px solid #767676a1;
+		padding: 15px;
+	}
+
+
+	/* Meksyk */
+	/* Poszycie top */
+	#tc-epo-form-15-0 > div:nth-child(9) > div > div{
+		padding: 15px;
+		border-top: 1px solid #767676a1;
+	}
+	/* Poszycie left&right */
+	#tc-epo-form-15-0 > div:nth-child(9) > div > div,
+	#tc-epo-form-15-0 > div:nth-child(10) > div > div,
+	#tc-epo-form-15-0 > div:nth-child(12) > div > div {
+		background: #FFF;
+		border-left: 1px solid #767676a1;
+		border-right: 1px solid #767676a1;
+	}
+	#tc-epo-form-15-0 > div:nth-child(11) > div > div {
+		background: #FFF;
+		border-left: 1px solid #767676a1;
+		border-right: 1px solid #767676a1;
+		border-bottom: 1px solid #767676a1;
+	}
+	#tc-epo-form-15-0 > div:nth-child(13) > div > div {
+		border-left: 1px solid #767676a1;
+	}
+	#tc-epo-form-15-0 > div:nth-child(15) > div > div {
+		border-right: 1px solid #767676a1;
+	}
+	/* Poszycie buttons 'dostosuj kolor' bottom */
+	#tc-epo-form-15-0 > div:nth-child(13) > div > div,
+	#tc-epo-form-15-0 > div:nth-child(14) > div > div,
+	#tc-epo-form-15-0 > div:nth-child(15) > div > div {
+		background: #FFF;
+		border-bottom: 1px solid #767676a1;
+	}
+
+
+	/* Dodatki */
+	/* border left & right */
+#tc-epo-form-15-0 > div:nth-child(19) > div > div,
+#tc-epo-form-15-0 > div:nth-child(20) > div > div,
+#tc-epo-form-15-0 > div:nth-child(21) > div > div,
+#tc-epo-form-15-0 > div:nth-child(22) > div > div,
+#tc-epo-form-15-0 > div:nth-child(23) > div > div,
+#tc-epo-form-15-0 > div:nth-child(24) > div > div,
+#tc-epo-form-15-0 > div:nth-child(25) > div > div,
+#tc-epo-form-15-0 > div:nth-child(26) > div > div,
+#tc-epo-form-15-0 > div:nth-child(27) > div > div,
+#tc-epo-form-15-0 > div:nth-child(28) > div > div,
+#tc-epo-form-15-0 > div:nth-child(29) > div > div {
+  padding: 0 30px;
+  background: #fff;
+  border-left: 1px solid #767676a1;
+  border-right: 1px solid #767676a1;
+}
+
+/* border top & bottom */
+#tc-epo-form-15-0 > div:nth-child(19) > div > div {
+  border-top: 1px solid #767676a1;
+}
+#tc-epo-form-15-0 > div:nth-child(29) > div > div {
+  border-bottom: 1px solid #767676a1;
+}
+
+
+
+/* UPDATE */
+#tc-epo-form-15-0 > div:nth-child(1),
+#tc-epo-form-15-0 > div:nth-child(2),
+#tc-epo-form-15-0 > div:nth-child(3),
+#tc-epo-form-15-0 > div:nth-child(4),
+#tc-epo-form-15-0 > div:nth-child(5),
+#tc-epo-form-15-0 > div:nth-child(6),
+#tc-epo-form-15-0 > div:nth-child(7),
+#tc-epo-form-15-0 > div:nth-child(8),
+#tc-epo-form-15-0 > div:nth-child(9),
+#tc-epo-form-15-0 > div:nth-child(10),
+#tc-epo-form-15-0 > div:nth-child(11){
+		order: -1;
+	}
+
+	#tc-epo-form-15-0 > div:nth-child(12){
+		order: 0;
+	}
+	#tc-epo-form-15-0 > div:nth-child(13){
+		order: 2;
+	}
+	#tc-epo-form-15-0 > div:nth-child(14){
+		order: 4;
+	}
+	#tc-epo-form-15-0 > div:nth-child(15){
+		order: 1;
+	}
+	#tc-epo-form-15-0 > div:nth-child(16){
+		order: 3;
+	}
+	#tc-epo-form-15-0 > div:nth-child(17){
+		order: 5;
+	}
+
+
+	#tc-epo-form-15-0 > div:nth-child(18),
+	#tc-epo-form-15-0 > div:nth-child(19),
+	#tc-epo-form-15-0 > div:nth-child(20),
+	#tc-epo-form-15-0 > div:nth-child(21),
+	#tc-epo-form-15-0 > div:nth-child(22),
+	#tc-epo-form-15-0 > div:nth-child(23),
+	#tc-epo-form-15-0 > div:nth-child(24),
+	#tc-epo-form-15-0 > div:nth-child(25),
+	#tc-epo-form-15-0 > div:nth-child(26),
+	#tc-epo-form-15-0 > div:nth-child(27),
+	#tc-epo-form-15-0 > div:nth-child(28),
+	#tc-epo-form-15-0 > div:nth-child(29){
+		order: 10;
+	}
+
+	#tc-epo-form-15-0 > div:nth-child(12) > div > div,
+	#tc-epo-form-15-0 > div:nth-child(13) > div > div,
+	#tc-epo-form-15-0 > div:nth-child(14) > div > div,
+	#tc-epo-form-15-0 > div:nth-child(15) > div > div,
+	#tc-epo-form-15-0 > div:nth-child(16) > div > div,
+	#tc-epo-form-15-0 > div:nth-child(17) > div > div {
+		border-right: 1px solid #767676a1;
+		border-left: 1px solid #767676a1;
+		border-bottom: 0;
+		background: #FFF;
+	}
+
+	#tc-epo-form-15-0 > div:nth-child(17) > div > div {
+		border-bottom: 1px solid #767676a1 !important;
+	}
+
+	@media (min-width: 768px){
+		#tc-epo-form-15-0 > div:nth-child(12) > div > div{
+			border-right: 0;
+			border-left: 1px solid #767676a1;
+		}
+		#tc-epo-form-15-0 > div:nth-child(13) > div > div{
+			border-right: 0;
+			border-left: 0;
+		}
+		#tc-epo-form-15-0 > div:nth-child(14) > div > div{
+			border-right: 1px solid #767676a1;
+			border-left: 0;
+		}
+		#tc-epo-form-15-0 > div:nth-child(15) > div > div{
+			border-right: 0;
+			border-left: 1px solid #767676a1;
+			border-bottom: 1px solid #767676a1;
+		}
+		#tc-epo-form-15-0 > div:nth-child(16) > div > div{
+			border-right: 0;
+			border-left: 0;
+			border-bottom: 1px solid #767676a1;
+		}
+		#tc-epo-form-15-0 > div:nth-child(17) > div > div{
+			border-right: 1px solid #767676a1;
+			border-left: 0;
+			border-bottom: 1px solid #767676a1;
+		}
+
+		#tc-epo-form-15-0 > div:nth-child(12){
+			order: 0;
+		}
+		#tc-epo-form-15-0 > div:nth-child(13){
+			order: 1;
+		}
+		#tc-epo-form-15-0 > div:nth-child(14){
+			order: 2;
+		}
+		#tc-epo-form-15-0 > div:nth-child(15){
+			order: 3;
+		}
+		#tc-epo-form-15-0 > div:nth-child(16){
+			order: 4;
+		}
+		#tc-epo-form-15-0 > div:nth-child(17){
+			order: 5;
+		}
+	}
+
+
+
+body.single-product.postid-15 #tc-epo-form-15-0 > [data-uniqid="634e811af6be40.72579754"],
+body.single-product.postid-15 #tc-epo-form-15-0 > [data-uniqid="634e811df6be83.27166318"],
+body.single-product.postid-15 #tc-epo-form-15-0 > [data-uniqid="6277c583bc6e91.89041822"],
+body.single-product.postid-15 #tc-epo-form-15-0 > [data-uniqid="6268597436a4e8.74048409"],
+body.single-product.postid-15 #tc-epo-form-15-0 > [data-uniqid="6267c6836c1098.51557180"],
+body.single-product.postid-15 #tc-epo-form-15-0 > [data-uniqid="6267c6936c1105.52576630"] {
+    background: #fff;
+}
+
