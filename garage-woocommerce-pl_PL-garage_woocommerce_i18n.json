@@ -1,0 +1,16 @@
+{
+    "translation-revision-date": "+0000",
+    "domain":                    "garage-woocommerce",
+    "locale_data":               {
+      "garage-woocommerce": {
+        "":                                                             {
+          "domain":       "garage-woocommerce",
+          "plural-forms": "nplurals=2; plural=n != 1",
+          "lang":         "pl-pl"
+        },
+        "Na vybranej stene nie je miesto.": [
+          "Na wybranej ścianie nie ma miejsca"
+        ]
+      }
+    }
+  }
