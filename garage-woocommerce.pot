@@ -16,31 +16,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1;  plural=EXPRESSION;\n"
-"X-Original: C:/Users/kmedr/Desktop/Robota/tlumaczenia_POT/garage-translations.txt\n"
+"X-Original: /"
 "X-Generator: Eazy Po 1.0.0.0\n"
 
-#: C:\Users\kmedr\Desktop\Robota\tlumaczenia_POT\garage-translations.txt:1
+#: /
 msgid "Nincs bejárat a garázsba, adjon hozzá egy kaput vagy ajtót"
 msgstr ""
 
-#: C:\Users\kmedr\Desktop\Robota\tlumaczenia_POT\garage-translations.txt:3
+#: /
 #, Lines_Before:1
 msgid "Výška dveří snížena"
 msgstr ""
 
-#: C:\Users\kmedr\Desktop\Robota\tlumaczenia_POT\garage-translations.txt:5
+#: /
 #, Lines_Before:1
 msgid ""
 "Garáž nemožno meniť, presúvať ani odstraňovať príslušenstvo na stenách."
 msgstr ""
 
-#: C:\Users\kmedr\Desktop\Robota\tlumaczenia_POT\garage-translations.txt:7
+#: /
 #, Lines_Before:1
 msgid ""
 "Nemôžete zmeniť typ strechy, znížiť alebo odstrániť doplnky na stenách."
 msgstr ""
 
-#: C:\Users\kmedr\Desktop\Robota\tlumaczenia_POT\garage-translations.txt:9
+#: /
 #, Lines_Before:1
 msgid "Na vybranej stene nie je miesto."
 msgstr ""
