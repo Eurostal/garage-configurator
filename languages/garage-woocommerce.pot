@@ -11,35 +11,35 @@ msgstr ""
 "PO-Revision-Date: 2023-12-28 12:50+0100\n"
 "Last-Translator: webo.agency\n"
 "Language-Team: \n"
-"Language: sk_SK\n"
+"Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1;  plural=EXPRESSION;\n"
 "X-Generator: Eazy Po 1.0.0.0\n"
 
-#: /
+#: ./garage_woocommerce.js:3
 msgid "There is no entrance to the garage, add a gate or door"
 msgstr ""
 
-#: /
+#: ./garage_woocommerce.js:5
 #, Lines_Before:1
 msgid "Door height reduced"
 msgstr ""
 
-#: /
+#: ./garage_woocommerce.js:7
 #, Lines_Before:1
 msgid ""
 "The garage cannot be changed, move or delete accessories on the walls."
 msgstr ""
 
-#: /
+#: ./garage_woocommerce.js:9
 #, Lines_Before:1
 msgid ""
 "You cannot change the type of roof, move or delete accessories on the walls."
 msgstr ""
 
-#: /
+#: ./garage_woocommerce.js:11
 #, Lines_Before:1
 msgid "There is no space on the selected wall."
 msgstr ""
