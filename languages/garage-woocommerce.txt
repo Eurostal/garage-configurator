@@ -6,6 +6,4 @@ The garage cannot be changed, move or delete accessories on the walls.
 
 You cannot change the type of roof, move or delete accessories on the walls.
 
-Nemôžete zmeniť typ strechy, znížiť alebo odstrániť doplnky na stenách.
-
 There is no space on the selected wall.
