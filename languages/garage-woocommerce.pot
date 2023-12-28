@@ -20,28 +20,26 @@ msgstr ""
 
 #: /
 msgid "There is no entrance to the garage, add a gate or door"
-msgstr "Žiadny vjazd do garáže, pridajte bránu alebo dvere."
+msgstr ""
 
 #: /
 #, Lines_Before:1
 msgid "Door height reduced"
-msgstr "Výška dverí znížená"
+msgstr ""
 
 #: /
 #, Lines_Before:1
 msgid ""
 "The garage cannot be changed, move or delete accessories on the walls."
 msgstr ""
-"Garáž nemožno meniť, presúvať ani odstraňovať príslušenstvo na stenách."
 
 #: /
 #, Lines_Before:1
 msgid ""
 "You cannot change the type of roof, move or delete accessories on the walls."
 msgstr ""
-"Nemôžete zmeniť typ strechy, znížiť alebo odstrániť doplnky na stenách."
 
 #: /
 #, Lines_Before:1
 msgid "There is no space on the selected wall."
-msgstr "Na vybranej stene nie je miesto."
+msgstr ""
