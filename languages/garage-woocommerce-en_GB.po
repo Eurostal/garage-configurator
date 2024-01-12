@@ -1,0 +1,41 @@
+# Translation of garage-translations.txt
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: support@webo.agency\n"
+"POT-Creation-Date: 2023-12-28 12:39+0100\n"
+"PO-Revision-Date: 2024-01-12 09:22+0000\n"
+"Last-Translator: EUROSTAL\n"
+"Language-Team: English (UK)\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.2.3"
+
+#: ./garage_woocommerce.js:3
+msgid "There is no entrance to the garage, add a gate or door"
+msgstr "There is no entrance to the garage, add a gate or door"
+
+#: ./garage_woocommerce.js:5
+msgid "Door height reduced"
+msgstr "Door height reduced"
+
+#: ./garage_woocommerce.js:7
+msgid "The garage cannot be changed, move or delete accessories on the walls."
+msgstr "The garage cannot be changed, move or delete accessories on the walls."
+
+#: ./garage_woocommerce.js:9
+msgid ""
+"You cannot change the type of roof, move or delete accessories on the walls."
+msgstr ""
+"You cannot change the type of roof, move or delete accessories on the walls."
+
+#: ./garage_woocommerce.js:11
+msgid "There is no space on the selected wall."
+msgstr "There is no space on the selected wall."
