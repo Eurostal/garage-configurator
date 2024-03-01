@@ -37,7 +37,7 @@ add_action('wp_enqueue_scripts',function(){
  // Localize the script with new data
   $translation_array = array(
     	'i18n_no_entance' => __( 'There is no entrance to the garage, add a gate or door', 'garage-woocommerce' ),
-    	'i18n_door_high_reduced' => __( 'Door height reduced', 'garage-woocommerce' ),
+    	'i18n_door_height_reduced' => __( 'Door height reduced', 'garage-woocommerce' ),
     	'i18n_wall_accessories' => __( 'The garage cannot be changed, move or delete accessories on the walls.', 'garage-woocommerce' ),
     	'i18n_roof_accessories' => __( 'You cannot change the type of roof, move or delete accessories on the walls.', 'garage-woocommerce' ),
     	'i18n_wall_space' => __( 'There is no space on the selected wall.', 'garage-woocommerce' )
